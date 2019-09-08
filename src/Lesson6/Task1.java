@@ -26,13 +26,15 @@ public class Task1 {
                 a.add("2.2");
                 printAL(a);
             }
-            static void printAL(ArrayList <String> al) {
-            for (String element : al) {
-                System.out.print(element + " ");
-            }
-            System.out.println(" ");
+
         }
+
+    static void printAL(ArrayList <String> al) {
+        for (String element : al) {
+            System.out.print(element + " ");
         }
+        System.out.println(" ");
+    }
     }
 
     //My comment
