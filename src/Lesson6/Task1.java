@@ -20,14 +20,13 @@ public class Task1 {
         if (a.indexOf("четыре") != 4) {
             a.add(4, "4.2");
         }
+        printAL(a);
+
+        if (a.contains("два")) {
+            a.add("2.2");
             printAL(a);
-
-            if (a.contains("два")) {
-                a.add("2.2");
-                printAL(a);
-            }
-
         }
+    }
 
     static void printAL(ArrayList <String> al) {
         for (String element : al) {
@@ -35,6 +34,6 @@ public class Task1 {
         }
         System.out.println(" ");
     }
-    }
+}
 
     //My comment
