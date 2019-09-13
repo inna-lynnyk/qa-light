@@ -11,13 +11,13 @@ public class Task2 {
         }
     }
 }
-class Monster {
+    class Monster {
     boolean frighten(int d) {
     System.out.println("Гррррррр");
         return true;
     }
 }
-class Vampire extends Monster {
+    class Vampire extends Monster {
     boolean frighten(int d) {
         System.out.println("Укусить?");
         return false;
